@@ -88,7 +88,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #F05F40;
-    /*font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }*/
+    /*font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
+  }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #f05f40; }
   #mainNav .navbar-toggle {
