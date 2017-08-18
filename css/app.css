@@ -21,7 +21,7 @@ header.masthead {
 
 #mainNav .navbar-brand {
     color: rgba(100, 100, 100, 0.7);
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Cormorant', serif;
     padding-left: 800px;
     font-size: 50px;
     color: #ffa64d;
@@ -70,10 +70,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Dancing Script', cursive;
-    color: #ffa64d;
-
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Cormorant', serif;
     color: #ffa64d;
 
 }
@@ -102,3 +99,91 @@ p {
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+a {
+    color: #ffa64d;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+
+
+
+          /*PROGRESS BAR CSS*/
+
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width:100%;
+    background:#eee;
+    height:35px;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+    width:110px;
+    font-weight:bold;
+    font-size:13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color:#ffffff;
+    background:#6adcfa;
+    -webkit-border-top-left-radius:50px;
+    -webkit-border-bottom-left-radius:50px;
+    -moz-border-radius-topleft:50px;
+    -moz-border-radius-bottomleft:50px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+
+}
+
+.skillbar-title span {
+    display:block;
+    background:rgba(0, 0, 0, 0.1);
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+    -webkit-border-top-left-radius:50px;
+    -webkit-border-bottom-left-radius:50px;
+    -moz-border-radius-topleft:50px;
+    -moz-border-radius-bottomleft:50px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+}
+
+.skillbar-bar {
+    height:35px;
+    width:0px;
+    background:#6adcfa;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+
+.skill-bar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:11px;
+    height:35px;
+    line-height:35px;
+    color:#ffffff;
+    color:rgba(0, 0, 0, 0.4);
+
+}
+

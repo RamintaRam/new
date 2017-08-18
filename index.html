@@ -17,6 +17,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
 
     <!-- Plugin CSS -->
@@ -42,7 +43,7 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -69,11 +70,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">I've got what you need!</h2>
+            <h2 class="section-heading text-white">Who is Raminta?</h2>
             <hr class="light">
-            <p class="text-faded">I have all the !
-              All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. And oranges! I always have oranges!</p>
-            <a class="btn btn-default btn-xl sr-button" href="#services">Get Started!</a>
+            <p class="text-faded">
+              I have over 8 years of work experience. More than 4 years worked in e-commerce. I am good with people, but happy having individual tasks.
+              For more than 5 years I worked as manager and team leader, so stress isn't getting under my skin anymore :)  I love coding. And oranges! I always have oranges!</p>
+            <!--<a class="btn btn-default btn-xl sr-button" href="#contact">Contact me!</a>-->
           </div>
         </div>
       </div>
@@ -83,7 +85,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Raminta is at Your Service</h2>
+            <h2 class="section-heading">What I can and what I do</h2>
             <hr class="primary">
           </div>
         </div>
@@ -119,6 +121,51 @@
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <br>
+        <div class="skillbar clearfix " data-percent="75%">
+          <div class="skillbar-title" style="background: #ffa64d;"><span>HTML</span></div>
+          <div class="skillbar-bar" style="background: #ffb958;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="70%">
+          <div class="skillbar-title" style="background: #6e666e;"><span>CSS</span></div>
+          <div class="skillbar-bar" style="background: #968e96;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="30%">
+          <div class="skillbar-title" style="background: #f05f40;"><span>jQuery</span></div>
+          <div class="skillbar-bar" style="background: #f0734c;"></div>
+          <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="40%">
+          <div class="skillbar-title" style="background: #ffa64d;"><span>PHP</span></div>
+          <div class="skillbar-bar" style="background: #ffb958;"></div>
+          <div class="skill-bar-percent">40%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="30%">
+          <div class="skillbar-title" style="background: #6e666e;"><span>Wordpress</span></div>
+          <div class="skillbar-bar" style="background: #968e96;"></div>
+          <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+
+        <!--<div class="skillbar clearfix " data-percent="100%">-->
+          <!--<div class="skillbar-title" style="background: #27ae60;"><span>SEO</span></div>-->
+          <!--<div class="skillbar-bar" style="background: #2ecc71;"></div>-->
+          <!--<div class="skill-bar-percent">100%</div>-->
+        <!--</div> &lt;!&ndash; End Skill Bar &ndash;&gt;-->
+
+        <div class="skillbar clearfix " data-percent="20%">
+          <div class="skillbar-title" style="background: #f05f40;"><span>Photoshop</span></div>
+          <div class="skillbar-bar" style="background: #f0734c;"></div>
+          <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+
       </div>
     </section>
 
@@ -265,4 +312,15 @@
 
   </body>
 
+
+<script>
+
+    jQuery(document).ready(function(){
+        jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+                width:jQuery(this).attr('data-percent')
+            },6000);
+        });
+    });
+</script>
 </html>
