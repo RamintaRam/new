@@ -27,17 +27,13 @@ header.masthead {
     color: #ffa64d;
 }
 
-
-#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #ffa64d;
 }
 
-
-
-    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
-        color: #ffa64d;
-    }
-
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #ffa64d;
+}
 
 a:not([href]):not([tabindex]) {
     color: #ffa64d;
@@ -45,10 +41,9 @@ a:not([href]):not([tabindex]) {
 
 }
 
-
 body {
     margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -57,7 +52,8 @@ body {
 }
 
 #mainNav .navbar-brand i {
-    font-size: 25px;
+    font-size: 23px;
+    font-style: normal;
 
 }
 
@@ -66,7 +62,7 @@ body {
     color: #ffa64d;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -76,7 +72,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #ffa64d!important;
+    background-color: #ffa64d !important;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -109,81 +105,91 @@ a {
 
 
 
-          /*PROGRESS BAR CSS*/
+
+
+
+
+
+
+
+/*PROGRESS BAR CSS*/
 
 .skillbar {
-    position:relative;
-    display:block;
-    margin-bottom:15px;
-    width:100%;
-    background:#eee;
-    height:35px;
-    border-radius:50px;
-    -moz-border-radius:50px;
-    -webkit-border-radius:50px;
-    -webkit-transition:0.4s linear;
-    -moz-transition:0.4s linear;
-    -ms-transition:0.4s linear;
-    -o-transition:0.4s linear;
-    transition:0.4s linear;
-    -webkit-transition-property:width, background-color;
-    -moz-transition-property:width, background-color;
-    -ms-transition-property:width, background-color;
-    -o-transition-property:width, background-color;
-    transition-property:width, background-color;
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #fbfbfc;
+    height: 35px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
 }
 
 .skillbar-title {
-    position:absolute;
-    top:0;
-    left:0;
-    width:110px;
-    font-weight:bold;
-    font-size:13px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    color:#ffffff;
-    background:#6adcfa;
-    -webkit-border-top-left-radius:50px;
-    -webkit-border-bottom-left-radius:50px;
-    -moz-border-radius-topleft:50px;
-    -moz-border-radius-bottomleft:50px;
-    border-top-left-radius:50px;
-    border-bottom-left-radius:50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 
 }
 
 .skillbar-title span {
-    display:block;
-    background:rgba(0, 0, 0, 0.1);
-    padding:0 20px;
-    height:35px;
-    line-height:35px;
-    -webkit-border-top-left-radius:50px;
-    -webkit-border-bottom-left-radius:50px;
-    -moz-border-radius-topleft:50px;
-    -moz-border-radius-bottomleft:50px;
-    border-top-left-radius:50px;
-    border-bottom-left-radius:50px;
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .skillbar-bar {
-    height:35px;
-    width:0px;
-    background:#6adcfa;
-    border-radius:50px;
-    -moz-border-radius:50px;
-    -webkit-border-radius:50px;
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
 }
 
 .skill-bar-percent {
-    position:absolute;
-    right:10px;
-    top:0;
-    font-size:11px;
-    height:35px;
-    line-height:35px;
-    color:#ffffff;
-    color:rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
 
 }
+
+
+
 
