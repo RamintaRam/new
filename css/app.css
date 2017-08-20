@@ -4,7 +4,7 @@ header.masthead {
     /*min-height: auto;*/
     text-align: center;
     color: white;
-    background-image: url("../img/pexels-large.png");
+    background: url("../img/pexels-large.png") no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -22,9 +22,11 @@ header.masthead {
 #mainNav .navbar-brand {
     color: rgba(100, 100, 100, 0.7);
     font-family: 'Cormorant', serif;
-    padding-left: 800px;
+    padding-left: 450px;
+
     font-size: 50px;
     color: #ffa64d;
+    margin-top: -15px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -135,6 +137,15 @@ a {
 }
 
 
+/*#contact{*/
+/*background: url("../img/phone.PNG") no-repeat ;*/
+/*-webkit-background-size: cover;*/
+/*-moz-background-size: cover;*/
+/*-o-background-size: cover;*/
+/*background-size: cover;*/
+/*}*/
+
+
 
 
 
@@ -221,13 +232,4 @@ a {
     color: rgba(0, 0, 0, 0.4);
 
 }
-
-/*#contact{*/
-    /*background: url("../img/phone.jpg") no-repeat ;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-/*}*/
-
 
