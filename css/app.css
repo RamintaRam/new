@@ -74,8 +74,9 @@ body {
 }
 
 .bg-primary {
-    background-color: #ffa64d !important;
+    background-color: #e8e9eb!important;
 }
+
 
 .portfolio-box .portfolio-box-caption {
     position: absolute;
@@ -151,6 +152,26 @@ a {
 /*background-size: cover;*/
 /*}*/
 
+
+.about-me
+{
+    color: #938e96;
+}
+
+hr.light {
+    border-color: #f05f40;
+}
+
+
+.title-about
+{
+    color: #0d0d0d;
+}
+
+#about
+{
+    margin-top: -250px;
+}
 
 
 

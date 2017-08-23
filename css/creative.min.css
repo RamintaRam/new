@@ -58,9 +58,9 @@ p {
     margin-bottom: 20px
 }
 
-.bg-primary {
-    background-color: #f05f40 !important
-}
+/*.bg-primary {*/
+    /*background-color: #f05f40 !important*/
+/*}*/
 
 .bg-dark {
     color: #fff;
