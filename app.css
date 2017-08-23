@@ -39,15 +39,6 @@ header.masthead {
     color: #ffa64d;
 }
 
-
-#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    font-size: 15px;
-    font-weight: 700;
-    /*text-transform: uppercase;*/
-    /*color: #222;*/
-}
-
-
 a:not([href]):not([tabindex]) {
     color: #ffa64d;
     text-decoration: none;
@@ -65,7 +56,7 @@ body {
 }
 
 #mainNav .navbar-brand i {
-    font-size: 22px;
+    font-size: 23px;
     font-style: normal;
 
 }
