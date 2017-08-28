@@ -3,7 +3,7 @@ header.masthead {
     width: 100%;
     text-align: center;
     color: white;
-    background: url("../img/portfolio/fixed.jpg") no-repeat;
+    background: url("img/portfolio/fixed.jpg") no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -140,10 +140,8 @@ a {
 .img-fluid {
     max-width: 100%;
     /*height: auto;*/
-
-    height: 300px;
-    width: 650px;
-    
+    height: 280px;
+    width: 620px;
     /*margin-bottom: 30px;*/
 }
 
